@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.0...v1.0.1) (2026-07-03)
+
+### 🚀 Updated App Support
+
+* trigger v1.0.1 release ([d844bab](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/d844babbf1ed91903927c91465a554007beca1b5))
+
 ## 1.0.0 (2026-07-03)
 
 ### ✨ New Features

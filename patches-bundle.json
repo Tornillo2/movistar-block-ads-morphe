@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-03T20:03:07",
-  "description": "## 1.0.0 (2026-07-03)\n\n### ✨ New Features\n\n* add GitHub Actions workflow and update patch descriptor paths ([7a65f79](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/7a65f7937ce52ff7e86e123b2489d93dfd50d18c))\n* enhance ad blocking logic and update method invocations ([87d3754](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/87d3754f098808bbd13a78660c506df32b7cf261))",
-  "download_url": "https://github.com/Tornillo2/movistar-block-ads-morphe/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "created_at": "2026-07-03T20:37:55",
+  "description": "## [1.0.1](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.0...v1.0.1) (2026-07-03)\n\n### 🚀 Updated App Support\n\n* trigger v1.0.1 release ([d844bab](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/d844babbf1ed91903927c91465a554007beca1b5))",
+  "download_url": "https://github.com/Tornillo2/movistar-block-ads-morphe/releases/download/v1.0.1/patches-1.0.1.mpp",
   "signature_download_url": "",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
