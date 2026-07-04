@@ -1,3 +1,9 @@
+## [1.0.8](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.7...v1.0.8) (2026-07-04)
+
+### 🚀 Updated App Support
+
+* Update version to 1.0.8 and add new patches for ad blocking functionality ([3211402](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/3211402f783bd9aea6a9914fd5ce9e8fa5580fd1))
+
 ## [1.0.7](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.6...v1.0.7) (2026-07-04)
 
 ### 🚀 Updated App Support
