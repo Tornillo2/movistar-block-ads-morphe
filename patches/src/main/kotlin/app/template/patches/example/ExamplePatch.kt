@@ -19,9 +19,12 @@ val blockAdsPatch = bytecodePatch(
     extendWith("extensions/extension.mpe")
 
     execute {
+        // invoke-static espera que després facis move-result sobre el mateix registre.
+        // returnType del patch és V, així que no usem el boolean per saltar; només fem la crida.
         InitializePlayerFingerprint.method.addInstructions(
             0,
-            "nop"
+            "invoke-static {p5}, $EXTENSION_CLASS;->shouldBlockAndSkip(Ljava/lang/Object;)Z\n" +
+                "move-result v0\n"
         )
     }
 }
