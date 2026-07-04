@@ -5,7 +5,7 @@ import app.morphe.patcher.patch.bytecodePatch
 import app.template.patches.shared.Constants.COMPATIBILITY_MOVISTAR
 
 // Full Dalvik descriptor for the extension class.
-// Package: app.template.extension.extension  →  path: app/template/extension/extension
+// Package: app.template.extension.extension  →  path: app/template/extension/extension/ExamplePatch
 private const val EXTENSION_CLASS = "Lapp/template/extension/extension/ExamplePatch;"
 
 @Suppress("unused")
@@ -19,12 +19,15 @@ val blockAdsPatch = bytecodePatch(
     extendWith("extensions/extension.mpe")
 
     execute {
-        // invoke-static espera que després facis move-result sobre el mateix registre.
-        // returnType del patch és V, així que no usem el boolean per saltar; només fem la crida.
+        // IMPORTANT:
+        // Inject smali one instruction at a time to satisfy InlineSmaliCompiler lexer.
         InitializePlayerFingerprint.method.addInstructions(
             0,
-            "invoke-static {p5}, $EXTENSION_CLASS;->shouldBlockAndSkip(Ljava/lang/Object;)Z\n" +
-                "move-result v0\n"
+            "invoke-static {p5}, $EXTENSION_CLASS;->shouldBlockAndSkip(Ljava/lang/Object;)Z"
+        )
+        InitializePlayerFingerprint.method.addInstructions(
+            0,
+            "move-result v0"
         )
     }
 }
