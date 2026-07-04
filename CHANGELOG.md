@@ -1,3 +1,11 @@
+## [1.0.9](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.8...v1.0.9) (2026-07-04)
+
+### 🚀 Updated App Support
+
+* update 1.0.9 ([e69490f](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/e69490f7e69e3dacefe88fb428abc6ddfb1acb0a))
+* Update version to 1.0.9 and refactor notifyPlayerEnded method for improved event dispatching ([b6518e2](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/b6518e2e8965119a93001f199fe9d77615a51bff))
+* Update version to 1.0.9 in gradle.properties ([e1ba4b9](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/e1ba4b928bc11c739fdac2fd00eb0ce6946de8e4))
+
 ## [1.0.8](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.7...v1.0.8) (2026-07-04)
 
 ### 🚀 Updated App Support
