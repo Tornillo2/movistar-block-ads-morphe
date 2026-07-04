@@ -1,3 +1,9 @@
+## [1.0.7](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.6...v1.0.7) (2026-07-04)
+
+### 🚀 Updated App Support
+
+* Update version to 1.0.7 and refine ExamplePatch execution logic ([e539c67](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/e539c67fa32ce167902dccfec49611aef08772d6))
+
 ## [1.0.6](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.5...v1.0.6) (2026-07-04)
 
 ### 🚀 Updated App Support

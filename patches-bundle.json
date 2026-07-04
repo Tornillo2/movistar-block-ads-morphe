@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-04T18:34:37",
-  "description": "## [1.0.6](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.5...v1.0.6) (2026-07-04)\n\n### 🚀 Updated App Support\n\n* Update version to 1.0.6 and refine ExamplePatch execution logic ([dc646b6](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/dc646b6c0b13365828ab935ed577b04b17040d26))",
-  "download_url": "https://github.com/Tornillo2/movistar-block-ads-morphe/releases/download/v1.0.6/patches-1.0.6.mpp",
+  "created_at": "2026-07-04T19:48:32",
+  "description": "## [1.0.7](https://github.com/Tornillo2/movistar-block-ads-morphe/compare/v1.0.6...v1.0.7) (2026-07-04)\n\n### 🚀 Updated App Support\n\n* Update version to 1.0.7 and refine ExamplePatch execution logic ([e539c67](https://github.com/Tornillo2/movistar-block-ads-morphe/commit/e539c67fa32ce167902dccfec49611aef08772d6))",
+  "download_url": "https://github.com/Tornillo2/movistar-block-ads-morphe/releases/download/v1.0.7/patches-1.0.7.mpp",
   "signature_download_url": "",
-  "version": "1.0.6"
+  "version": "1.0.7"
 }
